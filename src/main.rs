@@ -31,3 +31,9 @@ struct Registers {
     ve: u8,
     vf: u8
 }
+
+enum Opcode {
+    00E0, //Clear Scren (CLS)
+    00EE, //Return from Subroutine (RET)
+    1(u16);
+} 
