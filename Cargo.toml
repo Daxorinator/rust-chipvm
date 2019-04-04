@@ -1,0 +1,7 @@
+[package]
+name = "emuchip8"
+version = "0.1.0"
+authors = ["Seán Kelly <daxorinator@gmail.com>"]
+edition = "2018"
+
+[dependencies]
