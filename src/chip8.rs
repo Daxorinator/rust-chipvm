@@ -24,7 +24,7 @@ pub struct Registers {
     pub vf: u8,
 }
 
-fn cls() {
+fn clear() {
     //clear display
 }
 
@@ -33,10 +33,69 @@ fn ret() {
 }
 
 fn call() {
-    //Call a subroutine
+
 }
 
-fn se() {
-    //Skip next instruction if Vx = kk
+fn skipequal() {
+
 }
 
+fn skipnotequal() {
+
+}
+
+fn load(x, y) {
+
+}
+
+fn add() {
+
+}
+
+fn or() {
+
+}
+
+fn and() {
+
+}
+
+fn xor() {
+
+}
+
+fn sub() {
+
+}
+
+fn shr() {
+
+}
+
+fn subn() {
+
+}
+
+fn shl() {
+
+}
+
+fn jump() {
+
+}
+
+fn rand() {
+
+}
+
+fn draw() {
+
+}
+
+fn push() {
+
+}
+
+fn npush() {
+
+}

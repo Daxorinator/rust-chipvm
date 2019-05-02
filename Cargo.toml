@@ -5,4 +5,7 @@ authors = ["Seán Kelly <daxorinator@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-sdl2 = "0.32"
+
+[dependencies.sdl2]
+version = "0.32"
+features = ["bundled"]
