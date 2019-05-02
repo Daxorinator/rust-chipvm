@@ -23,3 +23,20 @@ pub struct Registers {
     pub ve: u8,
     pub vf: u8,
 }
+
+fn cls() {
+    //clear display
+}
+
+fn ret() {
+    //Return from subroutine
+}
+
+fn call() {
+    //Call a subroutine
+}
+
+fn se() {
+    //Skip next instruction if Vx = kk
+}
+
