@@ -33,43 +33,43 @@ fn ret() {
 }
 
 fn call() {
-
+    //Call subroutine
 }
 
 fn skipequal() {
-
+    //Skip if equal
 }
 
 fn skipnotequal() {
-
+    //Skip not equal
 }
 
 fn load(x, y) {
-
+    //Load register
 }
 
 fn add() {
-
+    //Add register
 }
 
 fn or() {
-
+    //BITWISE OR
 }
 
 fn and() {
-
+    //BITWISE AND
 }
 
 fn xor() {
-
+    //BITWISE XOR
 }
 
 fn sub() {
-
+    //Subtract register
 }
 
 fn shr() {
-
+    
 }
 
 fn subn() {
