@@ -18,7 +18,7 @@ jobs:
             rustc --version
             rustup component add rustfmt
             rustfmt --version
-            cargo fmt --check
+            cargo fmt --all -- --check
       - run:
           name: Nightly Build
           command: |
