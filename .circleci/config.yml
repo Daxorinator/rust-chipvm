@@ -15,7 +15,7 @@ jobs:
       - run:
           name: Check formatting
           command: |
-            rustup component add rustfmt --toolchain 1.34.1-x86_64-unknown-linux-gnu
+            rustup component add rustfmt
             rustfmt --version
             cargo fmt --check
       - run:
