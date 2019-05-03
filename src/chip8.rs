@@ -24,78 +24,94 @@ pub struct Registers {
     pub vf: u8,
 }
 
-fn clear() {
+pub fn clear() {
     //clear display
 }
 
-fn ret() {
+pub fn ret() {
     //Return from subroutine
 }
 
-fn call() {
+pub fn call() {
     //Call subroutine
 }
 
-fn skipequal() {
+pub fn skipequal() {
     //Skip if equal
 }
 
-fn skipnotequal() {
+pub fn skipnotequal() {
     //Skip not equal
 }
 
-fn load(x, y) {
+pub fn load(x, y) {
     //Load register
 }
 
-fn add() {
+pub fn add() {
     //Add register
 }
 
-fn or() {
+pub fn or() {
     //BITWISE OR
 }
 
-fn and() {
+pub fn and() {
     //BITWISE AND
 }
 
-fn xor() {
+pub fn xor() {
     //BITWISE XOR
 }
 
-fn sub() {
+pub fn sub() {
     //Subtract register
 }
 
-fn shr() {
+pub fn shr() {
+
+}
+
+pub fn subn() {
+
+}
+
+pub fn shl() {
+
+}
+
+pub fn jump() {
+
+}
+
+pub fn rand() {
+
+}
+
+pub fn draw() {
+
+}
+
+pub fn push() {
+
+}
+
+pub fn npush() {
+
+}
+
+pub fn lpush() {
+
+}
+
+pub fn dumpbcd() {
     
 }
 
-fn subn() {
+pub fn regdump() {
 
 }
 
-fn shl() {
-
-}
-
-fn jump() {
-
-}
-
-fn rand() {
-
-}
-
-fn draw() {
-
-}
-
-fn push() {
-
-}
-
-fn npush() {
+pub fn regload() {
 
 }
