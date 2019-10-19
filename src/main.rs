@@ -16,9 +16,9 @@ fn main() {
 
         match (h1, l1, h2, l2) {
             
-            (0x0, 0x0, 0xE, 0x0) => chip8::clear(),
+            (0x0, 0x0, 0xE, 0x0) => chip8::clear(&mut display),
 
-            (0x0, 0x0, 0xE, 0xE) => chip8::ret(),
+            (0x0, 0x0, 0xE, 0xE) => chip8::ret(&mut registers, &stack),
 
             (0x1,  _ ,  _ ,  _ ) => chip8::jump(l1, h2, l2),
 

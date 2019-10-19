@@ -24,27 +24,29 @@ pub struct Registers {
     pub vf: u8,
 }
 
-pub fn clear() {
-    //clear display
+pub fn clear(&mut display: &mut [[bool; 64]; 32]) -> () {
+    let display = [[false; 64]; 32];
 }
 
-pub fn ret() {
+pub fn ret(&mut registers: &mut Registers, stack: [u16; 16]) {
     //Return from subroutine
+    registers.pc = stack[0];
+    registers.sp = registers.sp - 1;
 }
 
-pub fn call() {
+pub fn call(l1: u8, h2: u8, l2: u8) {
     //Call subroutine
 }
 
-pub fn skipequal() {
+pub fn skipequal(l1: u8, h2: u8, l2: u8) {
     //Skip if equal
 }
 
-pub fn skipnotequal() {
+pub fn skipnotequal(l1: u8, h2: u8, l2: u8) {
     //Skip not equal
 }
 
-pub fn load(x, y) {
+pub fn load(l1: u8, h2: u8, l2: u8) {
     //Load register
 }
 
@@ -80,7 +82,7 @@ pub fn shl() {
 
 }
 
-pub fn jump() {
+pub fn jump(l1, h2, l2) {
 
 }
 
